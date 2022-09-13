@@ -1,0 +1,44 @@
+a{
+    box-sizing: border-box;
+    background: #427fef;
+    border-radius: .3em;
+    color: #eee;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.tbl{
+    padding-left: 5rem;
+    margin: 2rem;
+}
+table{
+    width: 40%;
+    height: 65vh;
+    border-collapse: collapse;
+    color: black;
+    border: #c4dcf3;
+    font-family: sans-serif;
+}
+.tb{
+    background: #eef7ff;
+    border: #c4dcf3;
+}
+.th{
+    height: 2.5rem;
+    color: #eee;
+}
+
+table, th, td {
+    text-align: center;
+}
+
+th,td {
+    padding: 5px;
+}
+
+thead{
+    color: #eee;
+    background: #427fef;
+}

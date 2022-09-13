@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-transform: capitalize;
+    background-size: contain;
+    background: linear-gradient(white 30%, aqua 90%) no-repeat;
+
+}
+.head{
+    padding-top: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.head .logo{
+    color: red;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head .nav a{
+    color: black;
+    margin: 0.2rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight:bold ;
+    padding-right: 2rem;    
+}
+
+.sect{
+    text-align: center;
+    margin-top: 5rem;
+}
+
